@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 
 const loginLimiter = rateLimit({
   windowMs: 10 * 60 * 1000,
-  max: 50,
+  max: 20,
 });
 
 async function getUserFromDatabase(username) {
