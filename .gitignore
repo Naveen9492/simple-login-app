@@ -1,4 +1,4 @@
-# Ignore node_modules folders
+# Ignore node_modules folders anywhere in backend and frontend
 backend/node_modules/
 frontend/node_modules/
 
@@ -6,5 +6,5 @@ frontend/node_modules/
 backend/.env
 frontend/.env
 
-# Build output
+# Ignore React build output
 frontend/build/
