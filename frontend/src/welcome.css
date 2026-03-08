@@ -1,0 +1,15 @@
+/* Center the container */
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f2f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Welcome message styling */
+.welcome-container h1 {
+  color: #333;
+  font-size: 2.5rem;
+}
